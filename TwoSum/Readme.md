@@ -64,8 +64,8 @@ Now, we check if complement = 7 is in numMap i.e key in numMap and yes we have i
 
 # Now for repetition we do 
     
-		'_**numMap[complement] != i**_'  
-		for cases like nums = [3, 3] and target = 6
+    '_**numMap[complement] != i**_'  
+    for cases like nums = [3, 3] and target = 6
 
     numMap = {
 
