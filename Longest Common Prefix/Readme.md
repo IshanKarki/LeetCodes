@@ -14,3 +14,11 @@ If there is no common prefix, return an empty string "".
     Input: strs = ["dog","racecar","car"]
     Output: ""
     Explanation: There is no common prefix among the input strings.
+
+    Example 3:
+    Input: strs = ["account", "accompany", "a"]
+    Output: "a"
+
+    Example 4:
+    Input: strs = ["go", "google", "goofie"]
+    Output: "go"
