@@ -22,3 +22,5 @@ If there is no common prefix, return an empty string "".
     Example 4:
     Input: strs = ["go", "google", "goofie"]
     Output: "go"
+
+We solve the solution with vertical scanning approach, as it has the least time complexity of **O(N)**, we can also approach the LCP problem with Divide and Conquer which have the time complexity of **O(k)**, where **k** is the sum of all the characters in the string, which is same as the **O(N)** and Binary Search with the time complexity of **O(k.logN)**. 
