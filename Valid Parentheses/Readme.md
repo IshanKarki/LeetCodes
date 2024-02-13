@@ -41,7 +41,7 @@ then inside the loop, we check if the individual string in s is in keys of the p
 	  stack.append(bracket)
 else we know that the entered string is a closing bracket and for that we pop every last element from the stack, to check if the closing bracket in **s** is the same key value of the popped string in pairs dictionary.
 
-Example, if s = {[]} then stack will be 
+_Example_, if **s = { [ ] }** then stack will be 
 
     stack = ['{','[']
 and at third iteration bracket = ']' so we pop the last string from stack i.e stack.pop() = '['
@@ -62,7 +62,7 @@ we do the same thing as above and pop the last element, thus if the string s is 
 
 lets check for an invalid input
 
-Example, say s = {[}] then stack will be 
+_Example_, say **s = { [ } ]** then stack will be 
 
     stack = ['{','[']
 then bracket = '}', the last pop from stack is stack.pop() = '[',
@@ -73,9 +73,9 @@ Thus, it returns False.
 
 Say it started with an element not in pairs, i.e its a closing bracket then,
 
-say s = ]}{()]
+_Example_, say **s = ] } { ( ) ]**
 
-then stack = []
+then stack = [ ]
 thus, we return False as
 
     len(stack) == 0 
