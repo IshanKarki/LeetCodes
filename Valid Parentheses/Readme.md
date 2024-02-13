@@ -78,6 +78,6 @@ _Example_, say **s = ] } { ( ) ]**
 then stack = [ ]
 thus, we return False as
 
-    len(stack) == 0 
+    len(stack) == 0 # here, this is True so if this is True we return False
 
     
