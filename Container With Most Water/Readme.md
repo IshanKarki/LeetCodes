@@ -12,8 +12,8 @@ Notice that you may not slant the container.
  
 
     Example 1:
-
-    ![image](https://github.com/IshanKarki/LeetCodes/assets/44771554/be1a8958-4bb5-4d6e-844f-6bc85bebd9dc)
+![image](https://github.com/IshanKarki/LeetCodes/assets/44771554/be1a8958-4bb5-4d6e-844f-6bc85bebd9dc)
+    
     Input: height = [1,8,6,2,5,4,8,3,7]
     Output: 49
     Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
