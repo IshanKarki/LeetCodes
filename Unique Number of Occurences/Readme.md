@@ -9,6 +9,7 @@ Given an array of integers arr, return true if the number of occurrences of each
     Example 2:
     Input: arr = [1,2]
     Output: false
+    Explanation: The value 1 has 1 occurences, 2 also has 1 occurences. Thus, all values have same number of occurences. Thus, False.
 
     Example 3:
     Input: arr = [-3,0,1,-3,1,1,1,-3,10,0]
