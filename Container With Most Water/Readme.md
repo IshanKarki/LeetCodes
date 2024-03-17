@@ -1,6 +1,8 @@
 # Container With Most Water
 _**<a href = "https://leetcode.com/problems/container-with-most-water/description/" class = "button">Medium</a>**_
-The solution to this problem is approached with visualization solutions for better understanding. The basic problem solution to be solved on LeetCode is in the code cell where the output is shown.
+
+
+_**Note:** The solution to this problem is approached with visualization solutions for better understanding. The basic problem solution to be solved on LeetCode is in the code cell where the output is shown._
 
 You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).
 
